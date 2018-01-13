@@ -4,6 +4,7 @@ UserType = GraphQL::ObjectType.define do
 
   field :id, types.Int
   field :email, types.String
+  field :api_token, types.String
   field :updated_at do
     type types.Int
 
